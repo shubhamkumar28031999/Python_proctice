@@ -1,0 +1,13 @@
+fruits=['ornage','apple','pear','banana','apple','kiwi']
+numbers=[4,2,6,90,6,9,3,67,0,2,46]
+print(sorted(numbers))
+print(numbers)
+fruits.sort()
+numbers.sort()
+print(fruits)
+print(numbers)
+numbers.clear()
+print(numbers)
+fruits_copy=fruits.copy()
+print(fruits_copy)
+print(fruits_copy.index('kiwi'))
